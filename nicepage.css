@@ -3,6 +3,75 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
+ @-webkit-keyframes reach {
+  0%, 10%, 20%, 30%, 50%, 60%, 70%, 80%, 90%, 100% {
+    -webkit-transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+            transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%)); }
+  50% {
+    -webkit-transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%));
+            transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%)); } }
+@keyframes reach {
+  0%, 10%, 20%, 30%, 50%, 60%, 70%, 80%, 90%, 100% {
+    -webkit-transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+            transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%)); }
+  50% {
+    -webkit-transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%));
+            transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%)); } }
+
+.reach {
+  --size: 10;
+  height: calc(var(--size) * 1px);
+  width: calc(var(--size) * 1px);
+  position: absolute; }
+  .reach div {
+    -webkit-animation: reach 1s calc(var(--delay) * 1s) infinite ease;
+            animation: reach 1s calc(var(--delay) * 1s) infinite ease;
+    width: 50%;
+    height: 150%;
+    background: var(--primary);
+    position: absolute;
+    -webkit-transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+            transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%)); }
+    .reach div:nth-child(1) {
+      --delay: 0.1;
+      --rotation: 36;
+      --translation: 150; }
+    .reach div:nth-child(2) {
+      --delay: 0.2;
+      --rotation: 72;
+      --translation: 150; }
+    .reach div:nth-child(3) {
+      --delay: 0.3;
+      --rotation: 108;
+      --translation: 150; }
+    .reach div:nth-child(4) {
+      --delay: 0.4;
+      --rotation: 144;
+      --translation: 150; }
+    .reach div:nth-child(5) {
+      --delay: 0.5;
+      --rotation: 180;
+      --translation: 150; }
+    .reach div:nth-child(6) {
+      --delay: 0.6;
+      --rotation: 216;
+      --translation: 150; }
+    .reach div:nth-child(7) {
+      --delay: 0.7;
+      --rotation: 252;
+      --translation: 150; }
+    .reach div:nth-child(8) {
+      --delay: 0.8;
+      --rotation: 288;
+      --translation: 150; }
+    .reach div:nth-child(9) {
+      --delay: 0.9;
+      --rotation: 324;
+      --translation: 150; }
+    .reach div:nth-child(10) {
+      --delay: 1;
+      --rotation: 360;
+      --translation: 150; }
 
 .fr-clearfix::after {
   clear: both;
@@ -6294,7 +6363,7 @@ section.u-image:not(.u-hover-box),
   margin-bottom: 0.5rem;
 }
 .u-image-circle.u-image {
-  border-radius: 50% !important;
+  border:none
 }
 .u-image-square {
   border-radius: 0;
@@ -13611,6 +13680,7 @@ section.u-image:not(.u-hover-box),
 }
 .u-file-icon img {
   object-fit: contain;
+  margin-left:0px;
   width: 100%;
   height: 100%;
 }
@@ -16313,6 +16383,7 @@ div.u-video,
   width: auto;
   height: 1em;
   vertical-align: top;
+  margin-left:-60px;
 }
 .menu-collapse .u-nav-link svg + svg {
   position: absolute;
@@ -35192,7 +35263,7 @@ li.active > a.u-button-style.u-text-palette-2-base,
 li.active > a.u-button-style.u-text-palette-2-base[class*="u-border-"],
 a.u-button-style.u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"] {
-  color: #db545a !important;
+  color: white !important;
 }
 a.u-button-style.u-text-palette-2-base:hover,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"]:hover,
@@ -38237,7 +38308,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
-        background-image: linear-gradient(#292d33, #db545a);
+        background-image: linear-gradient(#292d33, #292d33);
         background-attachment: fixed;
         }
         /** common-rules **/
@@ -38401,18 +38472,18 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
-  min-height: 94px;
+  min-height: 74px;
 }
 
 .u-header .u-image-1 {
   width: 196px;
-  height: 75px;
+  height: px;
   margin: 18px auto 0 calc(((100% - 1140px) / 2) + -15px);
 }
 
 .u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+  width: 120px;
+  height: 50px;
 }
 
 .u-header .u-menu-1 {
