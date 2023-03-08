@@ -867,10 +867,11 @@ svg path:hover{
   top:50%;
   left: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 10px;
-  margin-left:800px;
-  margin-top: 200px;
+  margin-left:50%;
+  margin-top:15%;
+
 }
 
 .container {
@@ -938,6 +939,13 @@ span.text {
 @media screen and (max-width: 480px) {
   .wrapper{
     gap: 15px;
+    margin-top:300px;
+    margin-bottom:-200px;
+  }
+  .wrapper2{
+    gap: 15px;
+    display: block;
+  
   }
 
   .container {
@@ -968,6 +976,6 @@ span.text {
   display: flex;
   justify-content: space-around;
   gap: 10px;
-  margin-left:750px;
+  margin-left:50%;
   margin-top: 50px;
 }

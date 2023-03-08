@@ -789,13 +789,13 @@
   column-gap: 30px;
   margin-bottom: 20px;
 }
-.spon_list,.spon_list1,.spon_list2{
+.spon_list,.spon_list1,.spon_list2,.spon_list21,.spon_list22,.spon_list31,.spon_list32,.spon_list33,.spon_list34,.spon_list41,.spon_list42,.spon_list43,.spon_list51,.spon_list52,.spon_list53,.spon_list54,.spon_list55{
   text-align:center;
   display: flex;
   position: relative;
   display: flex;
   align-items:center;
-  background:rgb(192, 189, 189);
+  background:#e9f2fa;
   width:300px;
   height:200px;
   color: white;
@@ -805,14 +805,65 @@
   object-fit: cover;
 }
 .spon_list{
-  background-image: url("images/PCBColour.png");
-}
-.spon_list1{
   background-image: url("images/597px-Godrej_Logo.svg.png");
 }
-.spon_list2{
-  background-image: url('images/client-4.png');
+.spon_list1{
+  background-size: contain;
+  background-image: url("images/2cce3718d329c8224d96b405a04da037886fe9b5c74239b2e58086d17d64300d04b1423987ae0a203d1c15a8cb7101fb76f27b20ddd0a1ca153e1b_1280.png");
 }
+.spon_list41{
+  background-size: contain;
+  background-image: url("images/Altium_Designer_logo.png")}
+.spon_list42{
+  background-size: contain;
+  background-image: url("images/download\ \(3\).png");
+}
+.spon_list43{
+  background-size: contain;
+  background-image: url("images/client-4.png");
+}
+.spon_list51{
+  background-size: contain;
+  background-image: url("images/client-10.png");
+}
+.spon_list52{
+  background-size: contain;
+  background-image: url("images/client-11.png");
+}
+.spon_list53{
+  background-size: contain;
+  background-image: url("images/client-12.png");
+}
+.spon_list54{
+  background-size: contain;
+  background-image: url("images/download1.png");
+}
+.spon_list55{
+  background-size: contain;
+  background-image: url("images/client-13.png");
+}
+.spon_list2{
+  background-image: url('images/PCBColour.png');
+  object-fit: cover;
+}
+.spon_list21{
+  background-size: contain;
+  background-image: url("images/TEColour.png")}
+.spon_list22{
+    
+    background-image: url("images/HTColour.png")}
+.spon_list31{
+      background-size: contain;
+      background-image: url("images/client-7.png")}
+.spon_list32{
+      background-size: contain;
+      background-image: url("images/download\ \(2\).png")}
+.spon_list33{
+        background-size: contain;
+        background-image: url("images/Annotation\ 2022-09-05\ 215856.png")}
+.spon_list34{
+          background-size: contain;
+          background-image: url("images/client-8.png")}
 .spon_head h5{
   display: none;
   text-align: end;
@@ -820,11 +871,12 @@
 left: 35%;
 top: 40%;
 }
-.spon_list:hover h5,.spon_list1:hover h5,.spon_list2:hover h5{
+.spon_list:hover h5,.spon_list1:hover h5,.spon_list2:hover h5,.spon_list21:hover h5,.spon_list22:hover h5,.spon_list31:hover h5,.spon_list32:hover h5,.spon_list33:hover h5,.spon_list34:hover h5,.spon_list41:hover h5,.spon_list42:hover h5,.spon_list43:hover h5,.spon_list51:hover h5,.spon_list52:hover h5,.spon_list53:hover h5,.spon_list54:hover h5,.spon_list55:hover h5{
   display:block;
+  color:white;
 }
-.spon_list:hover,.spon_list1:hover,.spon_list2:hover{
-  opacity:0.4;
+.spon_list:hover,.spon_list1:hover,.spon_list2:hover,.spon_list21:hover,.spon_list22:hover,.spon_list31:hover,.spon_list32:hover,.spon_list33:hover,.spon_list34:hover,.spon_list41:hover,.spon_list42:hover,.spon_list43:hover,.spon_list51:hover,.spon_list52:hover,.spon_list53:hover,.spon_list54:hover{
+  opacity:0.6;
 }
 @media(max-width:500px){
     .spon_head{
