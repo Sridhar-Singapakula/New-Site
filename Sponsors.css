@@ -881,5 +881,6 @@ top: 40%;
 @media(max-width:500px){
     .spon_head{
       display:block;
+      margin-left: 40px;
     }
 }
