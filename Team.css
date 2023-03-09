@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    column-gap: 15px;
     margin-bottom:-100px;
 }
 .row h1{
@@ -95,7 +96,11 @@ h1 {
 .card:hover .img-container {
     transform: scale(1.15);
 }
-
+@media(max-width:400px){
+    .row{
+       flex-wrap:wrap;
+    }
+}
 @media screen and (min-width: 768px) {
     section {
         padding: 1em 7em;
