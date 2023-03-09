@@ -15,6 +15,12 @@
     .row{
         display: block;
         justify-content: center;
-        margin-left: 35px;
+        margin-left: 55px;
     }
+}
+.Heading{
+    color:white;
+    margin-top:-150px;
+    font-weight: 600;
+    margin-left: 50px;
 }

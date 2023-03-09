@@ -866,18 +866,26 @@
           background-image: url("images/client-8.png")}
 .spon_head h5{
   display: none;
-  text-align: end;
+  text-align: left;
   position: absolute;
 left: 35%;
 top: 40%;
 }
 .spon_list:hover h5,.spon_list1:hover h5,.spon_list2:hover h5,.spon_list21:hover h5,.spon_list22:hover h5,.spon_list31:hover h5,.spon_list32:hover h5,.spon_list33:hover h5,.spon_list34:hover h5,.spon_list41:hover h5,.spon_list42:hover h5,.spon_list43:hover h5,.spon_list51:hover h5,.spon_list52:hover h5,.spon_list53:hover h5,.spon_list54:hover h5,.spon_list55:hover h5{
   display:block;
-  color:white;
+  color:rgb(98, 211, 248);
+   transition: 0.3s;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 2px;
 }
+
 .spon_list:hover,.spon_list1:hover,.spon_list2:hover,.spon_list21:hover,.spon_list22:hover,.spon_list31:hover,.spon_list32:hover,.spon_list33:hover,.spon_list34:hover,.spon_list41:hover,.spon_list42:hover,.spon_list43:hover,.spon_list51:hover,.spon_list52:hover,.spon_list53:hover,.spon_list54:hover{
-  opacity:0.6;
+  opacity:0.9;
+  background-color: rgb(18, 17, 17);
+  transition: 0.3s;
 }
+
 @media(max-width:500px){
     .spon_head{
       display:block;

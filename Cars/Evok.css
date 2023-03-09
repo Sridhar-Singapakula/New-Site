@@ -71,7 +71,67 @@
   
   .u-section-1 .u-image-1 {
     min-height: 563px;
-    background-image: url("../images/events3.jpeg");
+    background-image: url("../images/Evo4_iitbracing.jpg");
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+  .u-section-1 .u-image-2 {
+    min-height: 563px;
+    background-image: url("../images/EVo2.jpg");
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+  .u-section-1 .u-image-3 {
+    min-height: 563px;
+    background-image: url("../images/evo4.jpg");
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+  .u-section-1 .u-image-4 {
+    min-height: 563px;
+    background-image: url("../images/Evo4_iitbracing.jpg");
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+  .u-section-1 .u-image-x {
+    min-height: 563px;
+    background-image: url("../images/evox.jpg");
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+  .u-section-1 .u-image-o {
+    min-height: 563px;
+    background-image: url("../images/2_2.jpeg");
+    background-position: 50% 50%;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+  .u-section-1 .u-image-k {
+    min-height: 563px;
+    background-image: url("../images/EvoK.jpg");
     background-position: 50% 50%;
     --animation-custom_in-translate_x: 300px;
     --animation-custom_in-translate_y: 0px;
@@ -839,7 +899,7 @@
     top: 37px;
     transform-origin: center top 0px;
     position: absolute;
-    height: 433px;
+    height: 559px;
   }
   
   .u-section-3 .u-text-2 {
@@ -941,7 +1001,7 @@
     top: 37px;
     transform-origin: center top 0px;
     position: absolute;
-    height: 433px;
+    height: 559px;
   }
   
   .u-section-3 .u-text-18 {
@@ -1100,7 +1160,7 @@
     }
   
     .u-section-3 .u-line-1 {
-      height: 344px;
+      height: 639px;
     }
   
     .u-section-3 .u-text-2 {
@@ -1183,7 +1243,7 @@
     }
   
     .u-section-3 .u-line-2 {
-      height: 344px;
+      height: 639px;
     }
   
     .u-section-3 .u-text-18 {

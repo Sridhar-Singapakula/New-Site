@@ -250,3 +250,12 @@
     width: 340px;
   }
 }
+.gallerypics{
+  -webkit-backdrop-filter: blur(7px);
+  background: linear-gradient(0deg, rgba(40, 44, 52, 1) 0%, rgba(17, 0, 32, .5) 100%);
+  backdrop-filter: blur(7px);
+}
+/* #Heading{
+  text-align:left;
+  margin-top:-100px;
+} */
